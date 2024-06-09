@@ -1,7 +1,15 @@
-class Author:
-    def __init__(self, id, name):
-        self.id = id
-        self.name = name
+# models/author.py
 
-    def __repr__(self):
-        return f'<Author {self.name}>'
+class Author:
+    def __init__(self, name=None):
+        self._name = name  # Use the private attribute _name
+
+    @property
+    def name(self):
+        return self._name
+
+    @name.setter
+    def name(self, value):
+        if hasattr(self, '_name'):  # Check if _name attribute exists
+            raise AttributeError("Cannot change author's name after instantiation")
+        self._name = value
